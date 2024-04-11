@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+  height: 4px; /* Adjust as needed */
+}
+
+/* Track (the area behind the scrollbar) */
+::-webkit-scrollbar-track {
+  background:#4C82EF; /* Color of the track */
+}
+
+/* Handle (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+  background: black; /* Color of the handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #blue; /* Color of the handle on hover */
+}
